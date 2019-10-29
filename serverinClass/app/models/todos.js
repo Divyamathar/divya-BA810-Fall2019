@@ -7,10 +7,10 @@ var TodoSchema = new Schema({
     detail: { type: String },
     dateCreated: { type: Date, default: Date.now },
     dateDue: { type: Date, default: Date.now },
-    status: { type: String, Enum: ['Todo', 'In Process', 'Completed'], default: Todo },// ENUM validation
+    status: { type: String, Enum: ['Todo', 'In Process', 'Completed'], default: 'Todo' },// ENUM validation
     fileName: { type: String, originalName: String }
 });
 
-module.exports = Mongoose.model('User', TodoSchema);
+module.exports = Mongoose.model('Todo', TodoSchema);
 
 

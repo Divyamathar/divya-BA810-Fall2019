@@ -3,6 +3,7 @@ var morgan = require('morgan');
 const logger = require('./logger');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const fs = require ("fs");
 
 
 module.exports = function (app, config) {
@@ -20,7 +21,7 @@ module.exports = function (app, config) {
         mongoose.connection.once('open', function callback() {
             logger.log('info', "Mongoose connected to the database");
         });
-        
+
 
         app.use(function (req, res, next) {
             logger.log('Request from ' + req.connection.remoteAddress, 'info');
@@ -35,7 +36,15 @@ module.exports = function (app, config) {
     app.use(bodyParser.json());
 
     app.use(express.static(config.root + '/public'));
-    require('../app/controller/users')(app, config);
+    var models = fs.readdirSync('./app/models');
+    models.forEach((model) => {
+        require('../app/models/' + model);
+    });
+    var controllers = fs.readdirSync('./app/controllers');
+    controllers.forEach((controller) => {
+        contoller = require('../app/controllers/' + controller)(app, config);
+    });
+
     app.use(function (req, res) {
         res.type('text/plan');
         res.status(404);
