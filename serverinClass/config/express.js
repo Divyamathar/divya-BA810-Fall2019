@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const fs = require ("fs");
 
 
+
 module.exports = function (app, config) {
     logger.log('info', "Loading Mongoose functionality");
     mongoose.Promise = require('bluebird');
@@ -42,7 +43,7 @@ module.exports = function (app, config) {
     });
     var controllers = fs.readdirSync('./app/controllers');
     controllers.forEach((controller) => {
-        contoller = require('../app/controllers/' + controller)(app, config);
+        controller = require('../app/controllers/' + controller)(app, config);
     });
 
     app.use(function (req, res) {
