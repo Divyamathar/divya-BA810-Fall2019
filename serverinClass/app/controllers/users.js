@@ -4,7 +4,7 @@ var express = require('express'),
     logger = require('../../config/logger'),
     mongoose = require('mongoose'),
     User = mongoose.model('User');
-    const Bcrypt = require('bcryptjs');
+    //const Bcrypt = require('bcryptjs');
 
 module.exports = function (app, config) {
     app.use('/api', router);//middleware that installs the router all routes will go below here in this loop only 

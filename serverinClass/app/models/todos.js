@@ -1,8 +1,9 @@
 var Mongoose = require('mongoose');
+var status = ['Todo','InProcess','Completed'];  
 var Schema = Mongoose.Schema;
 
-var TodoSchema = new Schema({
-    user: { type: Schema.Types.ObjectId, required: true },
+var TodosSchema = new Schema({
+    userid: { type: Schema.Types.ObjectId, required: true },
     todo: { type: String, required: true },
     detail: { type: String },
     dateCreated: { type: Date, default: Date.now },
@@ -11,6 +12,5 @@ var TodoSchema = new Schema({
     fileName: { type: String, originalName: String }
 });
 
-module.exports = Mongoose.model('Todo', TodoSchema);
-
+module.exports = Mongoose.model('todos', TodosSchema);
 
