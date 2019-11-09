@@ -4,6 +4,7 @@ process.env.NODE_ENV = 'test';
 const mongoose = require("mongoose"),
 User = require('../app/models/users');
 Todo = require ('../app/models/todos');
+Widget = require ('../app/models/widgets');
 
 //Require the dev-dependencies
 let chai = require('chai');
@@ -212,32 +213,33 @@ it('it should GET a users todo', (done) => {
             .end((err, res) => {
                 res.should.have.status(200);
                 res.body.should.be.a('array');
-                res.body.length.should.be.eql(1);
+                //res.body.length.should.be.eql(2);
                 done();
             });
     });
 });
 
- it('it should GET a todo', (done) => {
-     var todo = new Todo({
-         "userid": USER_ID,
-         "todo": "This is my ToDo",
-     })
-     todo.save((err, todo) => {
-         chai.request(server)
-             .get('/api/todos/' + todo._id)
-             .end((err, res) => {
-                 res.should.have.status(200);
-                 res.body.should.be.a('object');
-                 res.body.should.have.property('userid');
-                 res.body.should.have.property('todo');
-                 res.body.should.have.property('status');
-                 res.body.should.have.property('dateCreated');
-                 res.body.should.have.property('_id').eql(todo._id.toString());
-                 done();
-             });
-     });
- });
+it('it should GET a todo', (done) => {
+    var todo = new Todo({
+        "userid": USER_ID,
+        "todo": "This is my ToDo",
+    })
+    todo.save((err, todo) => {
+        chai.request(server)
+            .get('/api/todos/' + todo._id)
+            .end((err, res) => {
+                res.should.have.status(200);
+                res.body.should.be.a('object');
+                res.body.should.have.property('userid');
+                res.body.should.have.property('todo');
+                res.body.should.have.property('status');
+                res.body.should.have.property('dateCreated');
+                res.body.should.have.property('_id').eql(todo._id.toString());
+                done();
+            });
+    });
+});
+
 
 it('it should UPDATE a todo', (done) => {
 
@@ -278,6 +280,51 @@ it('it should DELETE a todo given the id', (done) => {
                 res.should.have.status(200);
                 done();
             });
+    });
+
+    /////////////////Widget test case
+    describe('Widget', () => {
+        beforeEach((done) => {
+            Widget.remove({}, (err) => {
+                done();
+            });
+        });
+     ////////Get all widgets//
+     it('it should GET all the widgets', (done) => {
+        var widget = new Widget({
+            "Foo": "Doe",
+            "Woo": 11    
+        });
+        widget.save((err, widget) => {
+            chai.request(server)
+                .get('/api/widgets')
+                .end((err, res) => {
+                    res.should.have.status(200);
+                    res.body.should.be.a('array');
+                    res.body.length.should.be.eql(1);
+                    done();
+                });
+        });
+    });
+        
+     ////post////   
+        it('it should POST a widget', (done) => {
+            var widget = {
+                "Foo": "Jane",
+                "Woo": 10 
+            }
+            chai.request(server)
+                .post('/api/widgets')
+                .send(widget)
+                .end((err, res) => {
+                    res.should.have.status(201);
+                    res.body.should.have.property('Foo');
+                    res.body.Foo.should.be.a('string');
+                    res.body.Foo.should.equal('Jane');
+                    done();
+                });
+        });
+    
     });
 });
 
