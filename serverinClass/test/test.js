@@ -3,7 +3,7 @@
 process.env.NODE_ENV = 'test';
 const mongoose = require("mongoose"),
 User = require('../app/models/users');
-Todo = require('../app/models/todos');
+Todo = require ('../app/models/todos');
 
 //Require the dev-dependencies
 let chai = require('chai');
@@ -201,7 +201,7 @@ var USER_ID;
     }); 
 /////////////////////////check/////////////
 
-it('it should GET a users todos', (done) => {
+it('it should GET a users todo', (done) => {
     var todo = new Todo({
         "userid": USER_ID,
         "todo": "This is my ToDo"
