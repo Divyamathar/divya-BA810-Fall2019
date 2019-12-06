@@ -9,14 +9,10 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 const fs = require("fs");
-
-
-
-
-
-
+const cors = require('cors');
 
 module.exports = function (app, config) {
+    app.use(cors({origin: 'http://localhost:9000'}));
 
     logger.log('info', "Loading Mongoose functionality");
 
@@ -75,7 +71,7 @@ module.exports = function (app, config) {
 
 
     
-
+// app.use(express.static(config.root + '/public'));
     var models = fs.readdirSync('./app/models');
 
     models.forEach((model) => {

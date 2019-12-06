@@ -6,174 +6,119 @@
     "auditLog": "log\\.6425b6ef59d56488746d0ccea1d2ee6caecd0fd0-audit.json",
     "files": [
         {
-            "date": 1572305662883,
-            "name": "log\\error-2019-10-28-18.log",
-            "hash": "0b5bac814995cfc35007e5684acca77a"
+            "date": 1575058842317,
+            "name": "log\\error-2019-11-29-14.log",
+            "hash": "829d3b64a78f4e42d32c3bc89be7fa5a"
         },
         {
-            "date": 1572307433274,
-            "name": "log\\error-2019-10-28-19.log",
-            "hash": "c9f650b74bb2340739503c9bc479de7b"
+            "date": 1575062379643,
+            "name": "log\\error-2019-11-29-15.log",
+            "hash": "cafb58c2f2fbce1bd2df39c49b788259"
         },
         {
-            "date": 1572311786997,
-            "name": "log\\error-2019-10-28-20.log",
-            "hash": "34f16a1e64ae4a5ff0a460927753fff9"
+            "date": 1575248782819,
+            "name": "log\\error-2019-12-01-19.log",
+            "hash": "c3cdfbf0f7ae352b867ef139f72d8b71"
         },
         {
-            "date": 1572359632979,
-            "name": "log\\error-2019-10-29-09.log",
-            "hash": "2fe2dbc5797ba21603ef725194fdab7c"
+            "date": 1575335720488,
+            "name": "log\\error-2019-12-02-19.log",
+            "hash": "ba812ba985c3189f9b602d51879c74fe"
         },
         {
-            "date": 1572363005950,
-            "name": "log\\error-2019-10-29-10.log",
-            "hash": "0bfe636055dea90159bd2729c6b15cdb"
+            "date": 1575342766719,
+            "name": "log\\error-2019-12-02-21.log",
+            "hash": "90045da43bb92018418a660340b0c499"
         },
         {
-            "date": 1572370379429,
-            "name": "log\\error-2019-10-29-12.log",
-            "hash": "cc406dfcc6361140acae8affad95184d"
+            "date": 1575349571371,
+            "name": "log\\error-2019-12-02-23.log",
+            "hash": "d3342e2fe73c70359557ea215961599e"
         },
         {
-            "date": 1572372033130,
-            "name": "log\\error-2019-10-29-13.log",
-            "hash": "a2a8d7b289da6ad354a664c2b18ee395"
+            "date": 1575446050316,
+            "name": "log\\error-2019-12-04-01.log",
+            "hash": "4bc4092c24f40a2580319f5a5c4fa0a7"
         },
         {
-            "date": 1572376277125,
-            "name": "log\\error-2019-10-29-14.log",
-            "hash": "53f4d55fb4844b476d1204112391268f"
+            "date": 1575479801598,
+            "name": "log\\error-2019-12-04-11.log",
+            "hash": "f4bf295450c8dbcdab5682f5d833edc9"
         },
         {
-            "date": 1572380743698,
-            "name": "log\\error-2019-10-29-15.log",
-            "hash": "32316969ffdb47057b360f324723313e"
+            "date": 1575482437543,
+            "name": "log\\error-2019-12-04-12.log",
+            "hash": "b31d2936988add5a3ca550571c637ec0"
         },
         {
-            "date": 1572384285128,
-            "name": "log\\error-2019-10-29-16.log",
-            "hash": "7fc2e2277b42bad15953acd72c49787b"
+            "date": 1575492056252,
+            "name": "log\\error-2019-12-04-14.log",
+            "hash": "e6314503a7fe74e26f881c6427ac33b7"
         },
         {
-            "date": 1572475388906,
-            "name": "log\\error-2019-10-30-17.log",
-            "hash": "a64efc75a9ec9de19bbad7271d03a88a"
+            "date": 1575501161249,
+            "name": "log\\error-2019-12-04-17.log",
+            "hash": "b8269788f3ed39bae012f0fa8f2f8b26"
         },
         {
-            "date": 1572548280129,
-            "name": "log\\error-2019-10-31-13.log",
-            "hash": "d793cfb4e63e9499421daed18013cb58"
+            "date": 1575507253595,
+            "name": "log\\error-2019-12-04-18.log",
+            "hash": "e229a9aad2c6046edda47a0c3ca50940"
         },
         {
-            "date": 1572548518198,
-            "name": "log\\error-2019-10-31-14.log",
-            "hash": "5c3cd50e427f147fef60a182027b51d2"
+            "date": 1575509755385,
+            "name": "log\\error-2019-12-04-19.log",
+            "hash": "89a6ffc520eddffc912e00f3445914c9"
         },
         {
-            "date": 1572557937433,
-            "name": "log\\error-2019-10-31-16.log",
-            "hash": "1412e2bd7a06c4490702048520193e6f"
+            "date": 1575568337316,
+            "name": "log\\error-2019-12-05-11.log",
+            "hash": "a1e0c56fa6ce67b7a735e9acfb0ab80d"
         },
         {
-            "date": 1572560682792,
-            "name": "log\\error-2019-10-31-17.log",
-            "hash": "67ddf8c02604455242ac8ddf5f3b4898"
+            "date": 1575571158760,
+            "name": "log\\error-2019-12-05-12.log",
+            "hash": "3dd97e5163210b06f9885de87affe4b3"
         },
         {
-            "date": 1572634285858,
-            "name": "log\\error-2019-11-01-13.log",
-            "hash": "06ed5c125987f2d1866769020063e207"
+            "date": 1575573426675,
+            "name": "log\\error-2019-12-05-13.log",
+            "hash": "c55b4f6475c4f932b5d1d05ad5ad2f23"
         },
         {
-            "date": 1572635170333,
-            "name": "log\\error-2019-11-01-14.log",
-            "hash": "f180a2361452890d464c1ffabd8c8ba2"
+            "date": 1575583390857,
+            "name": "log\\error-2019-12-05-16.log",
+            "hash": "9d736009285a89745b8e1b3cc1c7f9e9"
         },
         {
-            "date": 1572913641323,
-            "name": "log\\error-2019-11-04-18.log",
-            "hash": "8da91f44ea4904c19abc50ae98cbe1b5"
+            "date": 1575593323307,
+            "name": "log\\error-2019-12-05-18.log",
+            "hash": "bda489505dadb8de51da0ba00e577cbe"
         },
         {
-            "date": 1572916063207,
-            "name": "log\\error-2019-11-04-19.log",
-            "hash": "95ec4b1bc75e34b80e804af640a17d92"
+            "date": 1575597041876,
+            "name": "log\\error-2019-12-05-19.log",
+            "hash": "11faba182092f8e72ec2edad82415a9a"
         },
         {
-            "date": 1572968671544,
-            "name": "log\\error-2019-11-05-09.log",
-            "hash": "613b86cedea549cad215d5909d6e107e"
+            "date": 1575599075359,
+            "name": "log\\error-2019-12-05-20.log",
+            "hash": "e339e575701369a6fe6ba75aaa7f235f"
         },
         {
-            "date": 1572980885899,
-            "name": "log\\error-2019-11-05-13.log",
-            "hash": "e8e899fb9a19ba4363db3d9d9a5d2816"
+            "date": 1575652574924,
+            "name": "log\\error-2019-12-06-11.log",
+            "hash": "64530418a88c8eca6c0de2e3de3b3fe9"
         },
         {
-            "date": 1572984342686,
-            "name": "log\\error-2019-11-05-14.log",
-            "hash": "8eb547f11494e152b4d1f01ba9caa8b4"
+            "date": 1575658714981,
+            "name": "log\\error-2019-12-06-12.log",
+            "hash": "e74d1375973495426e8856cefaea24e0"
         },
         {
-            "date": 1572996194081,
-            "name": "log\\error-2019-11-05-17.log",
-            "hash": "1981f82e0e947951e79b87913b4d4444"
-        },
-        {
-            "date": 1573002864462,
-            "name": "log\\error-2019-11-05-19.log",
-            "hash": "73432f5f76374796bbcbf88365793c4f"
-        },
-        {
-            "date": 1573005835731,
-            "name": "log\\error-2019-11-05-20.log",
-            "hash": "d59c5aa5b67505ef451b92eb7ed93684"
-        },
-        {
-            "date": 1573241309457,
-            "name": "log\\error-2019-11-08-13.log",
-            "hash": "5cd615820fd353d93cbbf67946488e98"
-        },
-        {
-            "date": 1573244382878,
-            "name": "log\\error-2019-11-08-14.log",
-            "hash": "dce8a6eecdb1c66dc330865f4f1f34a1"
-        },
-        {
-            "date": 1573261692594,
-            "name": "log\\error-2019-11-08-19.log",
-            "hash": "25cc28bf7fa686f1f7e0153c7b76d3de"
-        },
-        {
-            "date": 1573270491625,
-            "name": "log\\error-2019-11-08-21.log",
-            "hash": "a83e07e242e96438ef5638706c9726aa"
-        },
-        {
-            "date": 1573272042279,
-            "name": "log\\error-2019-11-08-22.log",
-            "hash": "cd7fe6d24179177e3b8d9bfba6221bdf"
-        },
-        {
-            "date": 1573275703540,
-            "name": "log\\error-2019-11-08-23.log",
-            "hash": "7e565c0672d0d1948d48bfd4d938f447"
-        },
-        {
-            "date": 1573317996239,
-            "name": "log\\error-2019-11-09-10.log",
-            "hash": "c19b9f5db5740a5603c64a1a1a861f3f"
-        },
-        {
-            "date": 1573321396585,
-            "name": "log\\error-2019-11-09-11.log",
-            "hash": "bbf1608aac2b7713f95cd44236b70fcc"
-        },
-        {
-            "date": 1573322522173,
-            "name": "log\\error-2019-11-09-12.log",
-            "hash": "db1c42d87beed73e2358a13bfebcd326"
+            "date": 1575661085456,
+            "name": "log\\error-2019-12-06-13.log",
+            "hash": "90ecf7a98ed9c484b465e8ca06d22965"
         }
     ]
 }

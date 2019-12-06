@@ -71,7 +71,7 @@ describe('User', () => {
                 done();
             });
     });
-    it('it should GET all the users', (done) => {
+    it('it should GET all the users', (done) => {
         var user = new User({
             "fname": "Jane",
             "lname": "Doe",
@@ -290,7 +290,7 @@ it('it should DELETE a todo given the id', (done) => {
             });
         });
      ////////Get all widgets//
-     it('it should GET all the widgets', (done) => {
+     it('it should GET all the widgets', (done) => {
         var widget = new Widget({
             "Foo": "Doe",
             "Woo": 11    
@@ -327,8 +327,3 @@ it('it should DELETE a todo given the id', (done) => {
     
     });
 });
-
-
-
-
-
