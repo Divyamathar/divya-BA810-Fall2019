@@ -146,6 +146,7 @@
             "hash": "463ec782937dc32add4d8408e901c37d"
         },
         {
+<<<<<<< Updated upstream
             "date": 1575842384939,
             "name": "log\\application-2019-12-08-15.log",
             "hash": "dbcc166b11a661efd3df6b5e599cd12c"
@@ -159,6 +160,16 @@
             "date": 1575860786345,
             "name": "log\\application-2019-12-08-21.log",
             "hash": "2ea5fc3d22245fde4e6a64e9426cab85"
+=======
+            "date": 1575915878538,
+            "name": "log\\application-2019-12-09-12.log",
+            "hash": "6a563e644e9dce18fc31e3554f046069"
+        },
+        {
+            "date": 1575918251210,
+            "name": "log\\application-2019-12-09-13.log",
+            "hash": "fbb82ea15ac2c48f2c870d4fbeac3931"
+>>>>>>> Stashed changes
         }
     ]
 }

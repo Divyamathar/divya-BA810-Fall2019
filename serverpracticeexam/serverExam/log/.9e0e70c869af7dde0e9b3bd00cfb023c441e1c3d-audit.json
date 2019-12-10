@@ -1,0 +1,64 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "log\\.9e0e70c869af7dde0e9b3bd00cfb023c441e1c3d-audit.json",
+    "files": [
+        {
+            "date": 1575681163854,
+            "name": "log\\application-2019-12-06-19.log",
+            "hash": "efdde040f8e0bbbf9f7a598b87a630a1"
+        },
+        {
+            "date": 1575688792599,
+            "name": "log\\application-2019-12-06-21.log",
+            "hash": "89cae57f45633c11128b7cd263603f79"
+        },
+        {
+            "date": 1575691856411,
+            "name": "log\\application-2019-12-06-22.log",
+            "hash": "13d20f935ae913b00d51300689f72f4a"
+        },
+        {
+            "date": 1575695878838,
+            "name": "log\\application-2019-12-06-23.log",
+            "hash": "1c13f7c547ed5a0553ae9366db104eef"
+        },
+        {
+            "date": 1575699672463,
+            "name": "log\\application-2019-12-07-00.log",
+            "hash": "99a7fa945df4f46a299a39972739d3f8"
+        },
+        {
+            "date": 1575754826240,
+            "name": "log\\application-2019-12-07-15.log",
+            "hash": "decb21be056abf48c580d4be47d729f8"
+        },
+        {
+            "date": 1575759192465,
+            "name": "log\\application-2019-12-07-16.log",
+            "hash": "299f0dd7d55b102403518a6cb56d45fa"
+        },
+        {
+            "date": 1575762315461,
+            "name": "log\\application-2019-12-07-17.log",
+            "hash": "23d9ee286029c50edacaa98f7f7ba75b"
+        },
+        {
+            "date": 1575763430881,
+            "name": "log\\application-2019-12-07-18.log",
+            "hash": "9e1ad6dc0671a188791fc1f1a5a867cb"
+        },
+        {
+            "date": 1575928358711,
+            "name": "log\\application-2019-12-09-15.log",
+            "hash": "19e53a935a6eeef188e421f392e365fa"
+        },
+        {
+            "date": 1575928918012,
+            "name": "log\\application-2019-12-09-16.log",
+            "hash": "a443daea32354cbedf9ddae0ac1cc783"
+        }
+    ]
+}
